@@ -16,7 +16,7 @@
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
                 gap: 20px;
-                max-width: 600px;
+                max-width: 800px;
                 margin: auto;
             }
 
@@ -26,6 +26,20 @@
                 border-radius: 8px;
                 text-align: center;
                 box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+            }
+
+            .image-container {
+                overflow: hidden;
+                margin-bottom: 0.5em;
+            }
+
+            .image-container img {
+                max-width: 100%;
+                transition: transform 0.3s ease;
+            }
+
+            .image-container:hover img {
+                transform: scale(2);
             }
 		</style>
 	</head>
@@ -48,19 +62,21 @@
 				<ul class="icons">
 					<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
 					<li><a href="https://www.instagram.com/girardsol/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-					<li><a href="https://www.youtube.com/@girardsol" class="icon brands alt fa-youtube"><span class="label">YouTube</span></a></li>
+					<li><a href="https://www.youtube.com/@SOL-t4y" class="icon brands alt fa-youtube"><span class="label">YouTube</span></a></li>
 				</ul>
 			</nav>
 
 			<!-- Main -->
-			<div id="main">
+			<div id="main" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
 
 				<!--Murales-->
-				<h2>Murales</h2>
+				<h2 st>Murales</h2>
 				<div class="grid-container">
 
 					<div class="customCard">
-						<img src="images/0.jpg" alt="image 0" style="max-width: 100%; margin: 0.5em;" />
+						<div class="image-container">
+							<img src="images/0.jpg" alt="image 0" />
+						</div>
 						<div>
 							<h4>La course du renard</h4>
 							<span class="date">2022</span>
@@ -68,7 +84,9 @@
 					</div>
 
 					<div class="customCard">
-						<img src="images/1.jpg" alt="image 1" style="max-width: 100%; margin: 0.5em;" />
+						<div class="image-container">
+							<img src="images/1.jpg" alt="image 1" />
+						</div>
 						<div>
 							<h4>Les trois visages</h4>
 							<span class="date">2022</span>
@@ -76,7 +94,9 @@
 					</div>
 
 					<div class="customCard">
-						<img src="images/2.jpg" alt="image 2" style="max-width: 100%; margin: 0.5em;" />
+						<div class="image-container">
+							<img src="images/2.jpg" alt="image 2" />
+						</div>
 						<div>
 							<h4>Merci les concierges</h4>
 							<span class="date">2023</span>
@@ -84,7 +104,9 @@
 					</div>
 
 					<div class="customCard">
-						<img src="images/3.jpg" alt="image 3" style="max-width: 100%; margin: 0.5em;" />
+						<div class="image-container">
+							<img src="images/3.jpg" alt="image 3" />
+						</div>
 						<div>
 							<h4>Si je t'attrape je te mange</h4>
 							<span class="date">2024</span>
@@ -93,7 +115,9 @@
 					</div>
 
 					<div class="customCard">
-						<img src="images/4.jpg" alt="image 4" style="max-width: 100%; margin: 0.5em;" />
+						<div class="image-container">
+							<img src="images/4.jpg" alt="image 4" />
+						</div>
 						<div>
 							<h4>La concoction des renards</h4>
 							<span class="date">2024</span>
@@ -101,7 +125,9 @@
 					</div>
 
 					<div class="customCard">
-						<img src="images/5.jpg" alt="image 5" style="max-width: 100%; margin: 0.5em;" />
+						<div class="image-container">
+							<img src="images/5.jpg" alt="image 5" />
+						</div>
 						<div>
 							<h4>La poule et le chat</h4>
 							<span class="date">2023</span>
@@ -110,7 +136,9 @@
 					</div>
 
 					<div class="customCard">
-						<img src="images/6.jpg" alt="image 6" style="max-width: 100%; margin: 0.5em;" />
+						<div class="image-container">
+							<img src="images/6.jpg" alt="image 6" />
+						</div>
 						<div>
 							<h4>Dragon bleu</h4>
 							<span class="date">2022</span>
@@ -119,7 +147,9 @@
 					</div>
 
 					<div class="customCard">
-						<img src="images/7.jpg" alt="image 7" style="max-width: 100%; margin: 0.5em;" />
+						<div class="image-container">
+							<img src="images/7.jpg" alt="image 7" />
+						</div>
 						<div>
 							<h4>Octopus</h4>
 							<span class="date">2022</span>
@@ -128,7 +158,9 @@
 					</div>
 
 					<div class="customCard">
-						<img src="images/8.jpg" alt="image 8" style="max-width: 100%; margin: 0.5em;" />
+						<div class="image-container">
+							<img src="images/8.jpg" alt="image 8" />
+						</div>
 						<div>
 							<h4>La crevette</h4>
 							<span class="date">2023</span>
@@ -137,7 +169,9 @@
 					</div>
 
 					<div class="customCard">
-						<img src="images/9.jpg" alt="image 9" style="max-width: 100%; margin: 0.5em;" />
+						<div class="image-container">
+							<img src="images/9.jpg" alt="image 9" />
+						</div>
 						<div>
 							<h4>Coucou les humain</h4>
 							<span class="date">2022</span>
@@ -146,7 +180,9 @@
 					</div>
 
 					<div class="customCard">
-						<img src="images/10.jpg" alt="image 10" style="max-width: 100%; margin: 0.5em;" />
+						<div class="image-container">
+							<img src="images/10.jpg" alt="image 10" />
+						</div>
 						<div>
 							<h4>Le joyeux pirate</h4>
 							<span class="date">2023</span>
@@ -155,7 +191,9 @@
 					</div>
 
 					<div class="customCard">
-						<img src="images/11.jpg" alt="image 11" style="max-width: 100%; margin: 0.5em;" />
+						<div class="image-container">
+							<img src="images/11.jpg" alt="image 11" />
+						</div>
 						<div>
 							<h4>Combat cartoon</h4>
 							<span class="date">2025</span>
@@ -164,7 +202,9 @@
 					</div>
 
 					<div class="customCard">
-						<img src="images/12.jpg" alt="image 12" style="max-width: 100%; margin: 0.5em;" />
+						<div class="image-container">
+							<img src="images/12.jpg" alt="image 12" />
+						</div>
 						<div>
 							<h4>Spa mal un café</h4>
 							<span class="date">2024</span>
@@ -172,7 +212,9 @@
 					</div>
 
 					<div class="customCard">
-						<img src="images/13.jpg" alt="image 13" style="max-width: 100%; margin: 0.5em;" />
+						<div class="image-container">
+							<img src="images/13.jpg" alt="image 13" />
+						</div>
 						<div>
 							<h4>Grue-Cheese</h4>
 							<span class="date">2025</span>
@@ -184,7 +226,9 @@
 				<h2>Toiles collective</h2>
 				<div class="grid-container">
 					<div class="customCard">
-						<img src="images/14.jpg" alt="image 14" style="max-width: 100%; margin: 0.5em;" />
+						<div class="image-container">
+							<img src="images/14.jpg" alt="image 14" />
+						</div>
 						<div>
 							<h4>L'attaque des monstres</h4>
 							<span class="date">2024</span>
@@ -193,14 +237,18 @@
 					</div>
 
 					<div class="customCard">
-						<img src="images/15.jpg" alt="image 15" style="max-width: 100%; margin: 0.5em;" />
+						<div class="image-container">
+							<img src="images/15.jpg" alt="image 15" />
+						</div>
 						<div>
 							<h4>Les avions sont l'inspiration des pigeons</h4>
 						</div>
 					</div>
 
 					<div class="customCard">
-						<img src="images/16.jpg" alt="image 16" style="max-width: 100%; margin: 0.5em;" />
+						<div class="image-container">
+							<img src="images/16.jpg" alt="image 16" />
+						</div>
 						<div>
 							<h4>Conte de fées</h4>
 						</div>
@@ -212,7 +260,9 @@
 				<h2>Peintures</h2>
 				<div class="grid-container">
 					<div class="customCard">
-						<img src="images/17.jpg" alt="image 17" style="max-width: 100%; margin: 0.5em;" />
+						<div class="image-container">
+							<img src="images/17.jpg" alt="image 17" />
+						</div>
 						<div>
 							<h4>Les brocoloc</h4>
 							<span class="date">2024</span>
@@ -220,7 +270,9 @@
 					</div>
 
 					<div class="customCard">
-						<img src="images/18.jpg" alt="image 18" style="max-width: 100%; margin: 0.5em;" />
+						<div class="image-container">
+							<img src="images/18.jpg" alt="image 18" />
+						</div>
 						<div>
 							<h4>J'aime pas les obergines</h4>
 							<span class="date">2023</span>
@@ -228,7 +280,9 @@
 					</div>
 
 					<div class="customCard">
-						<img src="images/19.jpg" alt="image 19" style="max-width: 100%; margin: 0.5em;" />
+						<div class="image-container">
+							<img src="images/19.jpg" alt="image 19" />
+						</div>
 						<div>
 							<h4>Le meilleur film</h4>
 							<span class="date">2022</span>
@@ -236,7 +290,9 @@
 					</div>
 
 					<div class="customCard">
-						<img src="images/20.jpg" alt="image 20" style="max-width: 100%; margin: 0.5em;" />
+						<div class="image-container">
+							<img src="images/20.jpg" alt="image 20" />
+						</div>
 						<div>
 							<h4>Ma joconde</h4>
 							<span class="date">2022</span>
@@ -244,7 +300,9 @@
 					</div>
 
 					<div class="customCard">
-						<img src="images/21.jpg" alt="image 21" style="max-width: 100%; margin: 0.5em;" />
+						<div class="image-container">
+							<img src="images/21.jpg" alt="image 21" />
+						</div>
 						<div>
 							<h4>MSV</h4>
 							<span class="date">2024</span>
@@ -252,7 +310,9 @@
 					</div>
 
 					<div class="customCard">
-						<img src="images/22.jpg" alt="image 22" style="max-width: 100%; margin: 0.5em;" />
+						<div class="image-container">
+							<img src="images/22.jpg" alt="image 22" />
+						</div>
 						<div>
 							<h4>C'est pas moi</h4>
 							<span class="date">2024</span>
@@ -260,7 +320,9 @@
 					</div>
 
 					<div class="customCard">
-						<img src="images/23.jpg" alt="image 23" style="max-width: 100%; margin: 0.5em;" />
+						<div class="image-container">
+							<img src="images/23.jpg" alt="image 23" />
+						</div>
 						<div>
 							<h4>Le rêve d'une nuit</h4>
 							<span class="date">2024</span>
@@ -268,7 +330,9 @@
 					</div>
 
 					<div class="customCard">
-						<img src="images/24.jpg" alt="image 24" style="max-width: 100%; margin: 0.5em;" />
+						<div class="image-container">
+							<img src="images/24.jpg" alt="image 24" />
+						</div>
 						<div>
 							<h4>Tadam</h4>
 							<span class="date">2023</span>
@@ -276,7 +340,9 @@
 					</div>
 
 					<div class="customCard">
-						<img src="images/25.jpg" alt="image 25" style="max-width: 100%; margin: 0.5em;" />
+						<div class="image-container">
+							<img src="images/25.jpg" alt="image 25" />
+						</div>
 						<div>
 							<h4>Le domaine des batards</h4>
 							<span class="date">2022</span>
@@ -284,7 +350,9 @@
 					</div>
 
 					<div class="customCard">
-						<img src="images/26.jpg" alt="image 26" style="max-width: 100%; margin: 0.5em;" />
+						<div class="image-container">
+							<img src="images/26.jpg" alt="image 26" />
+						</div>
 						<div>
 							<h4>Je ne sais pas si vous été prêt a cette éventualité personnellement, je le suis</h4>
 							<span class="date">2024</span>
@@ -292,7 +360,9 @@
 					</div>
 
 					<div class="customCard">
-						<img src="images/27.jpg" alt="image 27" style="max-width: 100%; margin: 0.5em;" />
+						<div class="image-container">
+							<img src="images/27.jpg" alt="image 27" />
+						</div>
 						<div>
 							<h4>Le bien et le mal c'est relatif</h4>
 							<span class="date">2025</span>
@@ -300,7 +370,9 @@
 					</div>
 
 					<div class="customCard">
-						<img src="images/28.jpg" alt="image 28" style="max-width: 100%; margin: 0.5em;" />
+						<div class="image-container">
+							<img src="images/28.jpg" alt="image 28" />
+						</div>
 						<div>
 							<h4>Éclipse</h4>
 							<span class="date">2025</span>
@@ -308,7 +380,9 @@
 					</div>
 
 					<div class="customCard">
-						<img src="images/29.jpg" alt="image 29" style="max-width: 100%; margin: 0.5em;" />
+						<div class="image-container">
+							<img src="images/29.jpg" alt="image 29" />
+						</div>
 						<div>
 							<h4>La maison dansante</h4>
 							<span class="date">2024</span>
@@ -316,7 +390,9 @@
 					</div>
 
 					<div class="customCard">
-						<img src="images/30.jpg" alt="image 30" style="max-width: 100%; margin: 0.5em;" />
+						<div class="image-container">
+							<img src="images/30.jpg" alt="image 30" />
+						</div>
 						<div>
 							<h4>Nous</h4>
 							<span class="date">2025</span>
@@ -324,7 +400,9 @@
 					</div>
 
 					<div class="customCard">
-						<img src="images/31.jpg" alt="image 31" style="max-width: 100%; margin: 0.5em;" />
+						<div class="image-container">
+							<img src="images/31.jpg" alt="image 31" />
+						</div>
 						<div>
 							<h4>Le calme pendant la tempête</h4>
 							<span class="date">2024</span>
@@ -332,7 +410,9 @@
 					</div>
 
 					<div class="customCard">
-						<img src="images/32.jpg" alt="image 32" style="max-width: 100%; margin: 0.5em;" />
+						<div class="image-container">
+							<img src="images/32.jpg" alt="image 32" />
+						</div>
 						<div>
 							<h4>Tourne-sol</h4>
 							<span class="date">2025</span>
@@ -340,13 +420,16 @@
 					</div>
 
 					<div class="customCard">
-						<img src="images/33.jpg" alt="image 33" style="max-width: 100%; margin: 0.5em;" />
+						<div class="image-container">
+							<img src="images/33.jpg" alt="image 33" />
+						</div>
 						<div>
 							<h4>Lobotomie</h4>
 							<span class="date">2025</span>
 						</div>
 					</div>
-				</div>
+				</div>k
+				</div>k
 
 			</div>
 
@@ -367,7 +450,7 @@
 					<ul class="icons alt" style="text-align: center;">
 						<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
 						<li><a href="https://www.instagram.com/girardsol/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="https://www.youtube.com/@girardsol" class="icon brands alt fa-youtube"><span class="label">YouTube</span></a></li>
+						<li><a href="https://www.youtube.com/@SOL-t4y" class="icon brands alt fa-youtube"><span class="label">YouTube</span></a></li>
 					</ul>
 				</div>
 			</footer>
