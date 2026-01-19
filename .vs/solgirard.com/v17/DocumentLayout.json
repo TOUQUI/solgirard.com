@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\julie\\OneDrive\\Bureau\\solgirard.com\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\julie\\OneDrive\\Bureau\\solgirard.com\\autre.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:autre.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\julie\\OneDrive\\Bureau\\solgirard.com\\peinture.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:peinture.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\julie\\OneDrive\\Bureau\\solgirard.com\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\julie\\OneDrive\\Bureau\\solgirard.com\\generic.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:generic.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\julie\\OneDrive\\Bureau\\solgirard.com\\elements.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:elements.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\julie\\OneDrive\\Bureau\\solgirard.com\\toile.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:toile.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,37 +34,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "elements.html",
-              "DocumentMoniker": "C:\\Users\\julie\\OneDrive\\Bureau\\solgirard.com\\elements.html",
-              "RelativeDocumentMoniker": "elements.html",
-              "ToolTip": "C:\\Users\\julie\\OneDrive\\Bureau\\solgirard.com\\elements.html",
-              "RelativeToolTip": "elements.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-05-27T17:33:22.172Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "generic.html",
-              "DocumentMoniker": "C:\\Users\\julie\\OneDrive\\Bureau\\solgirard.com\\generic.html",
-              "RelativeDocumentMoniker": "generic.html",
-              "ToolTip": "C:\\Users\\julie\\OneDrive\\Bureau\\solgirard.com\\generic.html",
-              "RelativeToolTip": "generic.html",
-              "ViewState": "AgIAALYBAAAAAAAAAAAAAMoBAAAAAAAAAAAAAA==",
+              "Title": "peinture.html",
+              "DocumentMoniker": "C:\\Users\\julie\\OneDrive\\Bureau\\solgirard.com\\peinture.html",
+              "RelativeDocumentMoniker": "peinture.html",
+              "ToolTip": "C:\\Users\\julie\\OneDrive\\Bureau\\solgirard.com\\peinture.html",
+              "RelativeToolTip": "peinture.html",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAHIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-05-27T17:32:19.503Z"
+              "WhenOpened": "2026-01-19T23:28:02.536Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "autre.html",
+              "DocumentMoniker": "C:\\Users\\julie\\OneDrive\\Bureau\\solgirard.com\\autre.html",
+              "RelativeDocumentMoniker": "autre.html",
+              "ToolTip": "C:\\Users\\julie\\OneDrive\\Bureau\\solgirard.com\\autre.html",
+              "RelativeToolTip": "autre.html",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAGUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-01-19T23:27:41.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "toile.html",
+              "DocumentMoniker": "C:\\Users\\julie\\OneDrive\\Bureau\\solgirard.com\\toile.html",
+              "RelativeDocumentMoniker": "toile.html",
+              "ToolTip": "C:\\Users\\julie\\OneDrive\\Bureau\\solgirard.com\\toile.html",
+              "RelativeToolTip": "toile.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-01-19T23:27:21.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\julie\\OneDrive\\Bureau\\solgirard.com\\index.html",
               "RelativeDocumentMoniker": "index.html",
               "ToolTip": "C:\\Users\\julie\\OneDrive\\Bureau\\solgirard.com\\index.html",
               "RelativeToolTip": "index.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABYAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-05-27T16:52:07.756Z",
               "EditorCaption": ""
