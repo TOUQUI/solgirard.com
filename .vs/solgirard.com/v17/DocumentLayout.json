@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\julie\\OneDrive\\Bureau\\solgirard.com\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\julie\\OneDrive\\Bureau\\solgirard.com\\peinture.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:peinture.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\julie\\OneDrive\\Bureau\\solgirard.com\\murale.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:murale.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\julie\\OneDrive\\Bureau\\solgirard.com\\peinture.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:peinture.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\julie\\OneDrive\\Bureau\\solgirard.com\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,26 +38,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "murale.html",
               "DocumentMoniker": "C:\\Users\\julie\\OneDrive\\Bureau\\solgirard.com\\murale.html",
               "RelativeDocumentMoniker": "murale.html",
               "ToolTip": "C:\\Users\\julie\\OneDrive\\Bureau\\solgirard.com\\murale.html",
               "RelativeToolTip": "murale.html",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAAGIAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAGsAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2026-01-19T23:30:29.346Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "peinture.html",
               "DocumentMoniker": "C:\\Users\\julie\\OneDrive\\Bureau\\solgirard.com\\peinture.html",
               "RelativeDocumentMoniker": "peinture.html",
               "ToolTip": "C:\\Users\\julie\\OneDrive\\Bureau\\solgirard.com\\peinture.html",
               "RelativeToolTip": "peinture.html",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAGQAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAGwAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2026-01-19T23:28:02.536Z",
               "EditorCaption": ""
